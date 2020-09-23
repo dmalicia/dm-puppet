@@ -2,3 +2,4 @@ modules/apt/
 modules/docker/
 modules/epel/
 modules/stdlib/
+modules/firewall/
