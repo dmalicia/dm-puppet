@@ -4,6 +4,7 @@ node /^monitoring(?:-\d+)?/ {
 }
 
 node /^frontend(?:-\d+)?/ { 
+  include frontend
   docker::run { 'frontend':
      image     => 'dmalicia/nodejs-simple',
      ports     => ['80:3000'],
